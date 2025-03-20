@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Get know me</title>
+</svelte:head>
+
         <form action="mailto:foo@example.com" method="GET">
             <label for="email">Email: <input id="email" type="email" name="text_email"> </label>
             <label for="subject">Subject: <input id="subject" type="text" name="text_subject"> </label>

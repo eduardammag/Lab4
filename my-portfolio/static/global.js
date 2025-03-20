@@ -21,10 +21,10 @@ if (currentLink) { // or if (currentLink !== undefined)
 const ARE_WE_HOME = document.documentElement.classList.contains("home");
 
 let pages = [
-    {url: "", title: "Home"},
-    {url: "contact/", title: "Contact"},
+    {url: ".", title: "Home"},
+    {url: "contact", title: "Contact"},
     {url: "projects", title: "Projects"},
-    {url: "resume/", title: "Resume"},
+    {url: "resume", title: "Resume"},
     {url: "https://github.com/Mike-Kowalski", title: "Github" }
 ]
 
